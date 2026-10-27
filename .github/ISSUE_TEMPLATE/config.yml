@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private feedback
+    url: https://top.gg/bot/1531266086291509460
+    about: Use the bot's /feedback command for private reports or contact requests.

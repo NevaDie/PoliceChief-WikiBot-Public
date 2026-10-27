@@ -1,0 +1,28 @@
+name: Game data correction
+description: Report public game information that may be incorrect or incomplete.
+title: "[Data] "
+labels: [data-correction]
+body:
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: State the current value and the proposed corrected value.
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Game context
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include screenshot, video, date, version, language, or source details.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Submission confirmation
+      options:
+        - label: I am permitted to share this information publicly and it is not restricted or members-only content.
+          required: true
