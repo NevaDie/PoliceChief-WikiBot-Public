@@ -7,9 +7,8 @@ title: Terms of Service
 
 **Last updated: 28 October 2026**
 
-These Terms apply to the use of Police Chief WikiBot.
-
-> **Publication note:** Project contact details must be completed before this page is used for Discord App Verification.
+These terms cover the use of Police Chief WikiBot. They are meant to set clear,
+practical expectations for a free community service.
 
 ## 1. Independent community project
 
@@ -21,9 +20,11 @@ Game names, trademarks, artwork, and other third-party materials belong to their
 
 WikiBot provides community-maintained game information, guides, interactive lookups, language preferences, event-planning tools, schedules, reminders, and related Discord utilities. Available content and features may change at any time.
 
-## 3. No guarantee of accuracy
+## 3. Game information can change
 
-Game values, schedules, rewards, terminology, and mechanics may change. Current in-game information remains authoritative. WikiBot information is provided for general informational purposes and should not be treated as a guarantee.
+Game values, schedules, rewards, names, and mechanics can change without notice.
+When WikiBot and the live game disagree, the current in-game information takes
+priority. WikiBot is a reference, not a guarantee.
 
 ## 4. Acceptable use
 
@@ -40,9 +41,11 @@ Users must not:
 
 Users who configure server-wide features confirm that they have the necessary Discord permissions and authorization from the server's management.
 
-## 6. Availability
+## 6. Availability and changes
 
-WikiBot is provided on an as-available basis. Continuous availability, error-free operation, permanent data retention, and support response times are not guaranteed.
+WikiBot is maintained in the project owner's free time. Continuous availability,
+error-free operation, permanent storage, and fixed support times cannot be
+promised.
 
 Features may be changed, suspended, rate-limited, or discontinued for maintenance, security, legal, platform, or operational reasons.
 
@@ -77,5 +80,5 @@ These Terms may be updated as WikiBot, Discord, applicable requirements, or proj
 ## 13. Contact
 
 - Use `/feedback` in Discord
-- Responsible person: **[name to be added]**
-- Contact email: **[email address to be added]**
+- Project operator: **NevaDie**
+- Email: **[policechiefwikibot@outlook.com](mailto:policechiefwikibot@outlook.com)**

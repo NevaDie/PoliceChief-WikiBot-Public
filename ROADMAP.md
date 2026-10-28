@@ -1,6 +1,7 @@
 # Public Roadmap
 
-This roadmap describes intended public documentation and community resources. It does not guarantee release dates.
+This is a working list rather than a release promise. Priorities can change when
+the game changes or the community finds a more urgent gap.
 
 ## In progress
 
@@ -23,5 +24,3 @@ This roadmap describes intended public documentation and community resources. It
 - More community-reviewed translations
 - Additional public data-quality reports
 - Better onboarding for contributors and data corrections
-
-Plans may change as the game, Discord, and community needs evolve.

@@ -7,7 +7,8 @@ title: Police Chief WikiBot
 
 **A free, independent community knowledge and planning bot for Police Chief players.**
 
-Police Chief WikiBot brings structured game information, practical guides, event planning, and server tools directly into Discord.
+Police Chief WikiBot keeps commonly needed game information and planning tools
+inside Discord, where alliances already coordinate their day-to-day play.
 
 ## Available information
 
@@ -26,6 +27,7 @@ Police Chief WikiBot brings structured game information, practical guides, event
 - [Server setup](./docs/server-setup.md)
 - [Using WikiBot as a User App](./docs/user-app.md)
 - [Languages and translations](./docs/languages.md)
+- [How AI tools are used](./docs/ai-use.md)
 - [Frequently asked questions](./docs/faq.md)
 
 ## Privacy and terms
@@ -35,7 +37,8 @@ Police Chief WikiBot brings structured game information, practical guides, event
 
 ## Support and feedback
 
-Use `/feedback` in Discord to privately submit corrections, bug reports, translation feedback, or suggestions.
+Use `/feedback` in Discord to send a correction, bug report, translation note, or
+suggestion privately to the project owner.
 
 WikiBot is free to use. Optional support through [Ko-fi](https://ko-fi.com/nevadie5279) does not unlock exclusive features.
 

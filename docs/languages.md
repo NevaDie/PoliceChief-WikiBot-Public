@@ -14,4 +14,6 @@ Supported interface languages include English, German, French, and Tagalog.
 
 Interface text may be translated while game-specific database content falls back to English. Events, Hero names, item names, currencies, and other in-game terminology are not automatically machine-translated when a verified translation is unavailable.
 
-Community-reviewed terminology and screenshots from the game are preferred.
+Machine translation may be used to prepare an interface draft, but it is not
+treated as proof of an official in-game name. Screenshots and community review
+are preferred for game-specific terminology.
