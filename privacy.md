@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: 28 October 2026**
+**Last updated: 7 November 2026**
 
 This page explains what information Police Chief WikiBot handles, why it is
 needed, and what choices users have.
@@ -26,7 +26,9 @@ Depending on the feature used, WikiBot may process:
 - Personal and server language preferences
 - Server time-zone and time-format settings
 - Configured update and event channels
-- Event schedules and reminder configuration
+- Event schedules, native Discord event links, and reminder configuration
+- Optional per-occurrence attendance responses and the responding user's Discord ID
+- Attendance announcement channel/message IDs used to restore buttons after restarts
 - Delivery timestamps for recurring setup reminders
 - Command usage information used for aggregate statistics
 - Feedback content voluntarily submitted through `/feedback`
@@ -34,6 +36,13 @@ Depending on the feature used, WikiBot may process:
 
 WikiBot does not store ordinary Discord chat messages, member lists, server
 invitations, email addresses, or IP addresses.
+
+Attendance is voluntary. Event announcements show counts only; event managers
+with Manage Events can request a private roster containing responding users'
+Discord IDs and their choices. These records cover people who respond, not a
+downloaded server member directory. No ordinary chat content is stored.
+Read Message History is used only to find the bot's own attendance announcement
+after an interrupted send; messages inspected for recovery are not retained.
 
 ## 3. Why this information is used
 
@@ -47,6 +56,10 @@ Identifiers used for aggregate usage statistics are pseudonymized and retained f
 
 ## 5. Retention
 
+- Attendance responses and announcement records are retained until 30 days after
+  that occurrence ends. They are also removed when the schedule is deleted or
+  the bot leaves the server. Disabling attendance closes responses while keeping
+  existing responses until their normal expiry.
 - Usage-history records are retained for no more than 90 days.
 - User settings are retained until removed or no longer required.
 - Server configuration is retained while needed to provide configured features.
@@ -60,7 +73,11 @@ Identifiers used for aggregate usage statistics are pseudonymized and retained f
 
 ## 6. User controls
 
-Use `/data delete` to remove recorded personal usage history supported by the bot.
+Use `/data delete` to remove your recorded usage history, personal language
+preference and all stored attendance responses. Use **Clear response** under an
+attendance announcement to remove only that occurrence's response. You can
+change your response until the event ends. Counts refresh on the next worker
+cycle after a data-deletion request.
 
 Server managers can disable configured channels and schedules through the corresponding server commands. Removing WikiBot from a server stops future processing for that server, except for limited records that must temporarily remain for security, integrity, or legal reasons.
 
